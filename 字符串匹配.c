@@ -3,8 +3,8 @@
 #include <string.h>
 int main()
 {
-	char s[100];//={"abcdefgabcdefgakcjkljkklfg"};
-	char p[100];//={"a.c*fg"};
+	char s[100];
+	char p[100];
 	char *pa[100]={0};//每次在s中匹配到的指针； 
 	char find[10][100]={0};
 	int *position[10]={0};
